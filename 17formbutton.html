@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8">
+		<title> Titulo da pagina </title>
+	</head>
+
+	<body>
+
+		CORPO DA PAGINA		<br><br>
+
+		<form name="dados" id="dados" action="abc.html">
+
+			<label for="texto">Seu nome: </label>	<br>
+			<input type="text" id="texto" name="texto" placeholder="escreva aqui" required> <br><br>
+
+			<label for="textogrande">Descricao sobre voce: </label>	<br>
+			<textarea name="textogrande" id="textogrande" cols="35" rows="3"> Escrever textos aqui </textarea>  <br><br>
+
+			<label for="cidade">Sua cidade: </label> <br>
+			<select name="cidade" id="cidade">
+			  <option value="t"> Taquara </option>
+			  <option value="p"> Parobe </option>
+			  <option value="i"> Igrejinha </option>
+			  <option value="t"> Tres Coroas </option>
+			</select>  <br><br>
+
+			<label for="sexo">Seu sexo: </label>	<br>
+			<div id="sexo">
+				<input type="radio" name="sexo" value="M"> Masculino <br>
+				<input type="radio" name="sexo" value="D"> Feminino <br><br>
+			</div>
+
+			<label for="animal">Tem quais animais de estimacao: </label> <br>
+			<div id="animal">
+				<input type="checkbox" name="animal" value="gato" /> Gato <br>
+	    	<input type="checkbox" name="animal" value="cachorro" /> Cachorro <br><br>
+			</div>
+
+			<label for="email">Email: </label> <br>
+			<input type="email" id="email" name="email" placeholder="seu email" required /> <br><br>
+
+			<input type="submit" value="Enviar Dados (input)">
+
+			<button type="submit">Enviar dados (button)</button>
+
+	  </form>
+
+	</body>
+
+ </html>
